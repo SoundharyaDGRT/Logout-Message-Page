@@ -1,0 +1,36 @@
+
+body{
+    background-color:gainsboro;
+    margin: 0;
+    padding: 0;
+   
+   
+    background-image: linear-gradient(#845EC2,#C493FF,#FEFEDF,#00C9A7);
+}
+
+.jumbotron_decor{
+    background-color:darkblue;
+    color:rgb(47, 255, 168);
+    /*color: #ffffff;*/
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    
+    animation:abcd 18s infinite;
+}
+@keyframes abcd{
+    0%{margin-left:100px;}
+    10%{margin-left:50px;}
+    20%{margin-right:100px;}
+    30%{margin-right:50px;}
+    40%{margin-left:100px;}
+    50%{margin-left:50px;}
+    60%{margin-right:100px;}
+    70%{margin-right:50px;}
+    80%{margin-left:100px;}
+    90%{margin-left:50px;}
+    100%{margin-left:100px;}
+    
+}
