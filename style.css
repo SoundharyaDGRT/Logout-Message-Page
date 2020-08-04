@@ -18,7 +18,7 @@ h1{
     font-size: 60px;
     text-align: center;
     
-    animation:abcd 18s infinite;
+    animation:abcd 16s infinite;
 }
 @keyframes abcd{
     0%{margin-left:100px;}
