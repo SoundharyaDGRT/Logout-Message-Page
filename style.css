@@ -3,9 +3,8 @@ body{
     background-color:gainsboro;
     margin: 0;
     padding: 0;
-    
-
-    background-image: linear-gradient(#845EC2,#C493FF,#FEFEDF,#00C9A7);
+    background-image: linear-gradient(125deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: 400%;   
 }
 
 .jumbotron_decor{
@@ -19,6 +18,7 @@ h1{
     text-align: center;
     
     animation:abcd 16s infinite;
+    
 }
 @keyframes abcd{
     0%{margin-left:100px;}
