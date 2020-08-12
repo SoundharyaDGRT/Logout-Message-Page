@@ -7,7 +7,7 @@ body{
 }
 
 .jumbotron_decor{
-    background-color:deepskyblue;
+    background-color:gainsboro;
    color: black;
    }
    
@@ -15,7 +15,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     text-align: center;
-    animation:abcd 16s infinite;  
+    /*animation:abcd 16s infinite;  */
 }
 @keyframes abcd{
     0%{margin-left:100px;}
